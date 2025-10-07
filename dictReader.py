@@ -16,7 +16,6 @@ def readFile():
         reader = csv.DictReader(csvfile)
 
         for row in reader:
-
             print(row)
             counter += 1
     return counter
