@@ -1,8 +1,8 @@
 id_curso,nombre_curso,creditos,id_prerrequisitos
-C3, "Calculo", 5, 1
-2, "Ingles", 1, 1
-3, "Desarrollo Web", 5, 0
-4, "Desarrollo movil", 3, 1
-5, "Analisis", 2, 1
-6, "Etica profesional", 2, 0
-7, "Estructura de datos", 3, C3
+CAL, "Calculo", 2, 0
+ING, "Ingles", 3, 0
+DWB, "Desarrollo Web", 4, ING
+DMV, "Desarrollo movil", 4, ING
+ANL, "Analisis", 2, CAL
+ETP, "Etica profesional", 5, 0
+ETD, "Estructura de datos", 3, CAL
