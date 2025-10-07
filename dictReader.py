@@ -1,6 +1,7 @@
 import csv
 
 dictArray = []
+noReqArray = []
 
 def readFile(): 
 
@@ -23,9 +24,17 @@ def findCreditsAverage():
     for curso in dictArray:
         creditos = curso.get('creditos')
         print(creditos)
+
+def listaSinRequisitos():
+    for curso in dictArray:
+        if curso["id_prerrequisitos"] == 0:
+            noReqArray.append(curso)
+    print(noReqArray)
+
 readFile()
 
 totalCursos = findTotal()
 
 findCreditsAverage()
 
+listaSinRequisitos()
