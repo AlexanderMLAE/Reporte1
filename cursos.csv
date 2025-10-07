@@ -1,5 +1,4 @@
-id_curso, nombre_curso, creditos, id_prerrequisitos
-
+id_curso,nombre_curso,creditos,id_prerrequisitos
 1, "Calculo", 5, 1
 2, "Ingles", 1, 1
 3, "Desarrollo Web", 5, 0

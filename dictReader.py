@@ -21,11 +21,11 @@ def findTotal():
 
 def findCreditsAverage():
     for curso in dictArray:
-        print(curso.items())
-        print(curso.get("creditos"))
+        creditos = curso.get('creditos')
+        print(creditos)
 readFile()
 
-findTotal()
+totalCursos = findTotal()
 
 findCreditsAverage()
 
